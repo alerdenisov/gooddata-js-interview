@@ -4,13 +4,8 @@ import { loginMachinery } from "./utils";
 import * as gooddata from './gooddata';
 import '@gooddata/react-components/styles/css/main.css';
 
-import GrossProfit from './pages/GrossProfit.js';
-
-import './App.css';
-
 const loading = () => <div className="animated fadeIn pt-3 text-center">Loading...</div>;
-
-// const GrossProfit = React.lazy(() => import('./pages/GrossProfit.js'));
+const GrossProfit = React.lazy(() => import('./pages/GrossProfit.js'));
 
 export default class App extends Component {
   constructor() {
