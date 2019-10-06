@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@gooddata/gooddata-js": "11.19.2",
     "@gooddata/react-components": "7.1.0",
     "date-fns": "2.4.1",
     "http-proxy-middleware": "0.19.1",
     "node-sass": "4.11.0",
-    "react": "16.5.2",
-    "react-dom": "16.5.2",
-    "react-scripts": "2.1.8"
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "4.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,5 +25,7 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "projectId": "xms7ga4tf3g3nzucd8380o2bev8oeknp",
+  "domain": ""
 }
